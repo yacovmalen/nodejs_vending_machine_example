@@ -1,0 +1,68 @@
+{
+  "machine_id": null,
+  "inventory": [
+    {
+      "name": "Coke",
+      "sku_code": 1,
+      "price": 2.50,
+      "stock_count": 10,
+      "active": true,
+      "additional_options": null
+    },
+    {
+      "name": "Sprite",
+      "sku_code": 2,
+      "price": 2.50,
+      "stock_count": 5,
+      "active": true,
+      "additional_options": null
+    },
+    {
+      "name": "Tea",
+      "sku_code": 3,
+      "price": 0.50,
+      "stock_count": 5,
+      "active": false,
+      "additional_options": [
+        {
+          "name": "sugar",
+          "code": 1,
+          "price": 0.10
+        },
+        {
+          "name": "milk",
+          "code": 2,
+          "price": 0.20
+        }
+      ]
+    },
+    {
+      "name": "Coffee",
+      "sku_code": 3,
+      "price": 0.75,
+      "stock_count": 5,
+      "active": false,
+      "additional_options": [
+        {
+          "name": "sugar",
+          "code": 1,
+          "price": 0.10
+        },
+        {
+          "name": "milk",
+          "code": 2,
+          "price": 0.20
+        }
+      ]
+    }
+  ],
+  "cash_on_hand": {
+    "5.00": 0,
+    "2.00": 5,
+    "1.00": 10,
+    "0.50": 10,
+    "0.10": 10
+  },
+  "creation_date": null,
+  "last_update": null
+}
